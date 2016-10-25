@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6290CFC6-5FF2-45F8-823E-9B0B7A91966E}</ProjectGuid>
+    <ProjectGuid>{E5350B7A-9852-4B1D-80AE-CDA822196FD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AreTheyTheSame</RootNamespace>
-    <AssemblyName>AreTheyTheSame</AssemblyName>
+    <RootNamespace>TheCouponCode</RootNamespace>
+    <AssemblyName>TheCouponCode</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AreTheySame.cs" />
+    <Compile Include="Kata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
